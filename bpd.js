@@ -135,7 +135,7 @@ class BpdComponent {
             }, {
                 title: 'Get Help',
                 icon: 'fa-comments',
-                route: 'help'
+                route: '/help-desk'
             }];
     }
 }
@@ -168,62 +168,19 @@ class DevComponent {
     }
 }
 DevComponent.ɵfac = function DevComponent_Factory(t) { return new (t || DevComponent)(); };
-DevComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DevComponent, selectors: [["ng-component"]], decls: 35, vars: 0, consts: [[1, "mat-h2", "mb-4"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/access", "target", "_blank", 1, "color-3", "bold-link"], [1, "ml-1", "align-center"], [1, "fas", "fa-external-link-alt"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/api-fields", "target", "_blank", 1, "color-3", "bold-link"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/api-functions", "target", "_blank", 1, "color-3", "bold-link"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/examples", "target", "_blank", 1, "color-3", "bold-link"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/security", "target", "_blank", 1, "color-3", "bold-link"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/home/glossary", "target", "_blank", 1, "color-3", "bold-link"]], template: function DevComponent_Template(rf, ctx) { if (rf & 1) {
+DevComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DevComponent, selectors: [["ng-component"]], decls: 9, vars: 0, consts: [[1, "mat-h2", "mb-4"], ["href", "https://bpd-api-docs.lbl.gov", "target", "_blank", 1, "color-3"], [1, "ml-1", "align-center"], [1, "fas", "fa-external-link-alt"]], template: function DevComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Links for Developers");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "The BPD features an application programming interface, which enables external software tools to run analytical queries on the dataset and incorporate the results into their own products. Browse the resources below to learn more.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "a", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "How to Access the API ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "i", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "The BPD features an application programming interface, which enables external software tools to run analytical queries on the dataset and incorporate the results into their own products. See ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "a", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "the documentation ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "span", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "i", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "a", 4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "List of Fields ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "List of Functions ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Filtering Examples ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Security ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Glossary ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](34, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " to learn more.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, encapsulation: 2 });
 
@@ -249,7 +206,7 @@ class DataComponent {
     }
 }
 DataComponent.ɵfac = function DataComponent_Factory(t) { return new (t || DataComponent)(); };
-DataComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DataComponent, selectors: [["ng-component"]], decls: 33, vars: 0, consts: [[1, "mat-h2", "mb-4"], ["href", "https://sites.google.com/a/lbl.gov/bpd-api-documentation/", "target", "_blank", 1, "color-3"], [1, "ml-1", "align-center"], [1, "fas", "fa-external-link-alt"], ["routerLink", "../../bedes", 1, "color-3"], ["href", "https://buildings.lbl.gov/sites/default/files/data-preparation-process-for-the-bpd.pdf", "target", "_blank", 1, "color-3"], ["href", "https://buildings.lbl.gov/sites/default/files/is-the-bpd-nationally-representative.pdf", "target", "_blank", 1, "color-3"], ["href", "https://buildings.lbl.gov/cbs/bpd#bpd-contact", "target", "_blank", 1, "color-3"]], template: function DataComponent_Template(rf, ctx) { if (rf & 1) {
+DataComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: DataComponent, selectors: [["ng-component"]], decls: 28, vars: 0, consts: [[1, "mat-h2", "mb-4"], ["href", "https://bpd-api-docs.lbl.gov", "target", "_blank", 1, "color-3"], [1, "ml-1", "align-center"], [1, "fas", "fa-external-link-alt"], ["routerLink", "../../bedes", 1, "color-3"], ["href", "https://buildings.lbl.gov/sites/default/files/data-preparation-process-for-the-bpd.pdf", "target", "_blank", 1, "color-3"], ["href", "https://buildings.lbl.gov/sites/default/files/is-the-bpd-nationally-representative.pdf", "target", "_blank", 1, "color-3"]], template: function DataComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "About the Data");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -288,14 +245,7 @@ DataComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, ". As we gather more data, we expect the BPD to more closely represent the actual building stock.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "The utility of the BPD depends on the quality and quantity of data it contains, and all data are submitted voluntarily by contributors. If you would like to help improve the BPD by contributing your data, please ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "contact us ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "span", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](31, "i", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, ". All data are kept anonymous and secure.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "The utility of the BPD depends on the quality and quantity of data it contains, and all data are submitted voluntarily by contributors. If you would like to help improve the BPD by contributing your data, please contact BTODataTools@ee.doe.gov. All data are kept anonymous and secure.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], encapsulation: 2 });
 
@@ -353,7 +303,7 @@ FaqComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "p", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "The BPD and Portfolio Manager are complementary. Portfolio Manager is a benchmarking and tracking tool that collects information on your building in order to generate a whole-building energy-efficiency score. The BPD allows users to explore the relationship between energy performance and physical and operational characteristics of many similar buildings in order to identify and evaluate efficiency opportunities. In fact, the BPD contains data on all of the buildings in Portfolio Manager that have been engineer-verified.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h5", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "h3", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "How does the BPD relate to CBECS and RECS?");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 2);
@@ -390,15 +340,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "tyNb");
 /* harmony import */ var _bpd_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./bpd.component */ "2JX0");
 /* harmony import */ var _dev_dev_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./dev/dev.component */ "7DEF");
-/* harmony import */ var _help_help_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./help/help.component */ "T29B");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./home/home.component */ "/5Jc");
-/* harmony import */ var _resources_resources_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./resources/resources.component */ "mPn0");
-/* harmony import */ var _faq_faq_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./faq/faq.component */ "F3pZ");
-/* harmony import */ var _data_data_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./data/data.component */ "EXVF");
-/* harmony import */ var _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./contribute/contribute.component */ "Vkj3");
-/* harmony import */ var _security_security_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./security/security.component */ "SQtP");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home/home.component */ "/5Jc");
+/* harmony import */ var _resources_resources_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./resources/resources.component */ "mPn0");
+/* harmony import */ var _faq_faq_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./faq/faq.component */ "F3pZ");
+/* harmony import */ var _data_data_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./data/data.component */ "EXVF");
+/* harmony import */ var _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contribute/contribute.component */ "Vkj3");
+/* harmony import */ var _security_security_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./security/security.component */ "SQtP");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -415,35 +363,32 @@ const routes = [{
         component: _bpd_component__WEBPACK_IMPORTED_MODULE_1__["BpdComponent"],
         children: [{
                 path: '',
-                component: _home_home_component__WEBPACK_IMPORTED_MODULE_4__["HomeComponent"]
+                component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
             }, {
                 path: 'data',
-                component: _data_data_component__WEBPACK_IMPORTED_MODULE_7__["DataComponent"]
+                component: _data_data_component__WEBPACK_IMPORTED_MODULE_6__["DataComponent"]
             }, {
                 path: 'security',
-                component: _security_security_component__WEBPACK_IMPORTED_MODULE_9__["SecurityComponent"]
+                component: _security_security_component__WEBPACK_IMPORTED_MODULE_8__["SecurityComponent"]
             }, {
                 path: 'contribute',
-                component: _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_8__["ContributeComponent"]
+                component: _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_7__["ContributeComponent"]
             }, {
                 path: 'faq',
-                component: _faq_faq_component__WEBPACK_IMPORTED_MODULE_6__["FaqComponent"]
+                component: _faq_faq_component__WEBPACK_IMPORTED_MODULE_5__["FaqComponent"]
             }, {
                 path: 'resources',
-                component: _resources_resources_component__WEBPACK_IMPORTED_MODULE_5__["ResourcesComponent"]
+                component: _resources_resources_component__WEBPACK_IMPORTED_MODULE_4__["ResourcesComponent"]
             }, {
                 path: 'dev',
                 component: _dev_dev_component__WEBPACK_IMPORTED_MODULE_2__["DevComponent"]
-            }, {
-                path: 'help',
-                component: _help_help_component__WEBPACK_IMPORTED_MODULE_3__["HelpComponent"]
             }]
     }];
 class BpdRoutingModule {
 }
-BpdRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineNgModule"]({ type: BpdRoutingModule });
-BpdRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵdefineInjector"]({ factory: function BpdRoutingModule_Factory(t) { return new (t || BpdRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_10__["ɵɵsetNgModuleScope"](BpdRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
+BpdRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineNgModule"]({ type: BpdRoutingModule });
+BpdRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵdefineInjector"]({ factory: function BpdRoutingModule_Factory(t) { return new (t || BpdRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_9__["ɵɵsetNgModuleScope"](BpdRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
 
 
 /***/ }),
@@ -466,12 +411,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _data_data_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./data/data.component */ "EXVF");
 /* harmony import */ var _security_security_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./security/security.component */ "SQtP");
 /* harmony import */ var _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./contribute/contribute.component */ "Vkj3");
-/* harmony import */ var _help_help_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./help/help.component */ "T29B");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./home/home.component */ "/5Jc");
-/* harmony import */ var _resources_resources_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./resources/resources.component */ "mPn0");
-/* harmony import */ var _faq_faq_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./faq/faq.component */ "F3pZ");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./home/home.component */ "/5Jc");
+/* harmony import */ var _resources_resources_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./resources/resources.component */ "mPn0");
+/* harmony import */ var _faq_faq_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./faq/faq.component */ "F3pZ");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/core */ "fXoL");
 
 
 
@@ -486,21 +429,20 @@ __webpack_require__.r(__webpack_exports__);
 
 class BpdModule {
 }
-BpdModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineNgModule"]({ type: BpdModule });
-BpdModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵdefineInjector"]({ factory: function BpdModule_Factory(t) { return new (t || BpdModule)(); }, imports: [[
+BpdModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineNgModule"]({ type: BpdModule });
+BpdModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵdefineInjector"]({ factory: function BpdModule_Factory(t) { return new (t || BpdModule)(); }, imports: [[
             _bpd_routing_module__WEBPACK_IMPORTED_MODULE_2__["BpdRoutingModule"],
             _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
             _shared_shared_module__WEBPACK_IMPORTED_MODULE_1__["SharedModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_12__["ɵɵsetNgModuleScope"](BpdModule, { declarations: [_bpd_component__WEBPACK_IMPORTED_MODULE_3__["BpdComponent"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_11__["ɵɵsetNgModuleScope"](BpdModule, { declarations: [_bpd_component__WEBPACK_IMPORTED_MODULE_3__["BpdComponent"],
         _data_data_component__WEBPACK_IMPORTED_MODULE_5__["DataComponent"],
         _security_security_component__WEBPACK_IMPORTED_MODULE_6__["SecurityComponent"],
         _contribute_contribute_component__WEBPACK_IMPORTED_MODULE_7__["ContributeComponent"],
         _dev_dev_component__WEBPACK_IMPORTED_MODULE_4__["DevComponent"],
-        _help_help_component__WEBPACK_IMPORTED_MODULE_8__["HelpComponent"],
-        _home_home_component__WEBPACK_IMPORTED_MODULE_9__["HomeComponent"],
-        _resources_resources_component__WEBPACK_IMPORTED_MODULE_10__["ResourcesComponent"],
-        _faq_faq_component__WEBPACK_IMPORTED_MODULE_11__["FaqComponent"]], imports: [_bpd_routing_module__WEBPACK_IMPORTED_MODULE_2__["BpdRoutingModule"],
+        _home_home_component__WEBPACK_IMPORTED_MODULE_8__["HomeComponent"],
+        _resources_resources_component__WEBPACK_IMPORTED_MODULE_9__["ResourcesComponent"],
+        _faq_faq_component__WEBPACK_IMPORTED_MODULE_10__["FaqComponent"]], imports: [_bpd_routing_module__WEBPACK_IMPORTED_MODULE_2__["BpdRoutingModule"],
         _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"],
         _shared_shared_module__WEBPACK_IMPORTED_MODULE_1__["SharedModule"]] }); })();
 
@@ -546,35 +488,6 @@ SecurityComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
 
 /***/ }),
 
-/***/ "T29B":
-/*!*************************************************!*\
-  !*** ./src/app/tool/bpd/help/help.component.ts ***!
-  \*************************************************/
-/*! exports provided: HelpComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HelpComponent", function() { return HelpComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-
-class HelpComponent {
-    constructor() {
-    }
-}
-HelpComponent.ɵfac = function HelpComponent_Factory(t) { return new (t || HelpComponent)(); };
-HelpComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HelpComponent, selectors: [["ng-component"]], decls: 4, vars: 0, consts: [[1, "mat-h2", "mb-4"]], template: function HelpComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Get Help");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Contact BTODataTools@ee.doe.gov for help getting started with or using the BPD.");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, encapsulation: 2 });
-
-
-/***/ }),
-
 /***/ "Vkj3":
 /*!*************************************************************!*\
   !*** ./src/app/tool/bpd/contribute/contribute.component.ts ***!
@@ -603,7 +516,7 @@ ContributeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "We are continually looking for data contributions, and new datasets are being added regularly. To date, we have received data contributions from dozens of exemplary industry leaders including Federal agencies, state and local governments, energy efficiency programs, real estate owners and private businesses.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "If you are interested in contributing data, please contact us.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "If you are interested in contributing data, please contact BTODataTools@ee.doe.gov.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Unless otherwise stated, all data provided to the BPD is treated as business confidential and anonymized per the ");
